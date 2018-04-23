@@ -91,7 +91,7 @@ if ($action == "list") {
     ?>
 
     <?php
-    echo "<br/><center><a href='https://www.cpanel4j.com'>Powered By cPanel4j</a></center>";
+    echo "<br/><center></center>";
 
     echo $cpanel->footer();
     ?>
