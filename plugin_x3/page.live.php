@@ -15,7 +15,7 @@ And cPanel is also going to remove support for this theme <a href="http://blog.c
 </center>
 
 <?php
-echo "<br/><center><a href='https://www.cpanel4j.com'>Powered By cPanel4j</a></center>";
+echo "<br/><center></center>";
 $footer = $cpanel->api1('Branding','include','stdfooter.html');
 echo $footer['cpanelresult']['data']['result'];
 ?>
