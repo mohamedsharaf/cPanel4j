@@ -218,7 +218,7 @@ if ($action == "list") {
         echo $cpanel->header('cPanel4J');
         echo "Form Data Error";
     }
-    echo "<br/><center><a href='http://cpanel4j.viveksoni.net'>Powered By cPanel4j</a></center>";
+    echo "<br/><center></center>";
 
     echo $cpanel->footer();
 } else if ($action == "start_tomcat_instance") {
